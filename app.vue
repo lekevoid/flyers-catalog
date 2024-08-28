@@ -77,8 +77,8 @@ const flyerVersion = ref("current");
 .resizable {
 	margin: 0 auto;
 	display: block;
-	height: calc(100vh - 180px);
-	width: calc(100vh - 180px);
+	height: calc(100svh - 180px);
+	width: calc(100svh - 180px);
 	max-width: 100%;
 	resize: horizontal;
 	overflow: auto;
