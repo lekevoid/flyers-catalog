@@ -79,6 +79,7 @@ const flyerVersion = ref("current");
 	display: block;
 	height: calc(100vh - 180px);
 	width: calc(100vh - 180px);
+	max-width: 100%;
 	resize: horizontal;
 	overflow: auto;
 }
