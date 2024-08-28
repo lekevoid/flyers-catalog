@@ -5,8 +5,4 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 
 	modules: ["@nuxt/ui", "@vite-pwa/nuxt"],
-
-	colorMode: {
-		preference: "dark",
-	},
 });
