@@ -1,5 +1,6 @@
 <template>
 	<div class="p-3">
+		<p>Version : 1</p>
 		<UTabs :items="items">
 			<template #item="{ item }">
 				<div class="pt-2 pb-3 px-4">
