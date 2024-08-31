@@ -6,6 +6,18 @@ export default defineNuxtConfig({
 
 	modules: ["@nuxt/ui", "@vite-pwa/nuxt"],
 
+	app: {
+		head: {
+			charset: "utf-16",
+			viewport: "width=1024, initial-scale=1",
+			title: "LeKevoid's Flyers",
+			meta: [
+				{ name: "description", content: "Flyers" },
+				{ name: "robots", content: "noindex nofollow" },
+			],
+		},
+	},
+
 	pwa: {
 		manifest: {
 			name: "LeKevoid's Flyers",
