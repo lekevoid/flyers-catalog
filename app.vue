@@ -21,6 +21,7 @@
 			</template>
 		</UTabs>
 	</div>
+	<VitePwaManifest />
 </template>
 
 <script setup lang="ts">
