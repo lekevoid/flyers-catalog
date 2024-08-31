@@ -21,19 +21,19 @@ export default defineNuxtConfig({
 	pwa: {
 		manifest: {
 			name: "LeKevoid's Flyers",
-			short_name: "LeKevoid's Flyers",
+			short_name: "Flyers",
 			background_color: "#000055",
 			theme_color: "#000055",
 			display: "standalone",
 			icons: [
 				{
-					src: ".icons/manifest-icon-64.maskable.png",
+					src: "./icons/manifest-icon-64.maskable.png",
 					sizes: "64x64",
 					type: "image/png",
 					purpose: "maskable",
 				},
 				{
-					src: ".icons/apple-icon-180",
+					src: "./icons/apple-icon-180",
 					sizes: "180x180",
 					type: "image/png",
 					purpose: "any",

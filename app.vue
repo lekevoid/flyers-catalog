@@ -1,4 +1,5 @@
 <template>
+	<VitePwaManifest />
 	<div class="p-3">
 		<p>Version : 4</p>
 		<UTabs :items="items">
@@ -21,7 +22,6 @@
 				</UCard>
 			</template>
 		</UTabs>
-		<VitePwaManifest />
 	</div>
 </template>
 
