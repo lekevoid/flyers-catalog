@@ -5,4 +5,53 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 
 	modules: ["@nuxt/ui", "@vite-pwa/nuxt"],
+
+	pwa: {
+		manifest: {
+			name: "LeKevoid's Flyers",
+			short_name: "LeKevoid's Flyers",
+			background_color: "#000055",
+			theme_color: "#000055",
+			display: "standalone",
+			icons: [
+				{
+					src: ".icons/manifest-icon-64.maskable.png",
+					sizes: "64x64",
+					type: "image/png",
+					purpose: "maskable",
+				},
+				{
+					src: ".icons/apple-icon-180",
+					sizes: "180x180",
+					type: "image/png",
+					purpose: "any",
+				},
+				{
+					src: "./icons/manifest-icon-192.maskable.png",
+					sizes: "192x192",
+					type: "image/png",
+					purpose: "any",
+				},
+				{
+					src: "./icons/manifest-icon-192.maskable.png",
+					sizes: "192x192",
+					type: "image/png",
+					purpose: "maskable",
+				},
+				{
+					src: "./icons/manifest-icon-512.maskable.png",
+					sizes: "512x512",
+					type: "image/png",
+					purpose: "any",
+				},
+				{
+					src: "./icons/manifest-icon-512.maskable.png",
+					sizes: "512x512",
+					type: "image/png",
+					purpose: "maskable",
+				},
+			],
+		},
+		registerWebManifestInRouteRules: true,
+	},
 });
