@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 	app: {
 		head: {
 			charset: "utf-16",
-			viewport: "width=1024, initial-scale=1",
+			viewport: "width=420, initial-scale=1",
 			title: "LeKevoid's Flyers",
 			meta: [
 				{ name: "description", content: "Flyers" },
